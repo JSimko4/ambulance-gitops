@@ -4,7 +4,10 @@ metadata:
   name: cv1simko-ambulance-ufe-content
 spec:
   microFrontend: cv1simko-ambulance-ufe
-  element:   cv1simko-ambulance-wl-app
+  element: cv1simko-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /<pfx>-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
