@@ -7,7 +7,7 @@ spec:
   element: cv1simko-ambulance-wl-app
   attributes:
     - name: base-path
-      value: /<pfx>-ambulance-wl/
+      value: /cv1simko-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content
