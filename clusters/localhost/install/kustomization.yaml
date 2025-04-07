@@ -9,6 +9,11 @@ labels:
 
 resources:
 - ../../../apps/cv1simko-ambulance-ufe
+- ../../../apps/cv1simko-ambulance-webapi
+
+patches:
+- path: patches/ambulance-webapi.service.yaml
 
 components:
 - ../../../components/version-developers
+- https://github.com/JSimko4/ambulance-webapi//deployments/kustomize/components/mongodb
