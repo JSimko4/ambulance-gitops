@@ -12,7 +12,7 @@ labels:
 
 resources:
 - ../../../apps/cv1simko-ambulance-ufe
-
+- ../../../apps/cv1simko-ambulance-webapi
 
 components:
 - ../../../components/version-release
